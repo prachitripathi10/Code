@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "wscats.cors-browser",
-        "firefox-devtools.vscode-firefox-debug"
+        "firefox-devtools.vscode-firefox-debug",
+        "ritwickdey.liveserver"
     ]
 }
