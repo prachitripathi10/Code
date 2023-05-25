@@ -9,25 +9,49 @@
                 font-style: normal;font-family: 'Times New Roman', Times, serif;font-size: 45px;
                 
             }
+            select{
+                block-size: 20px;
+            }
         </style>
             <body>
                 <h1>EVENT <BR> REGISTRATION FORM</h1>
-                    <h3>October 10 2023 <br> Lucknow</h3>
                     <label for="name">Your Name</label>
-                    <input type="text"id="name">
-                    <label for=last name>Last Name</label>
-                    <input type="text"id="last name">
+                    <input type="text"id="name" placeholder="First name">
+                    <input type="text" placeholder="Last name"><br><br>
                     <label for=mail>Your Email ID</label>
                     <input type="email"id="mail">
                     <br><br>
+                    <label for="date">Booking for date with time:</label>
+                    <input type="datetime-local"id="date"><br><br>
                     <label for=TICKETS>Choose Your Ticket</label><br><br>
                     <input type="radio"id="Choose your ticket"name="choice"><label for=TICKETS>Single Ticket</label><br><br>
                     <input type="radio"id="Choose your ticket"name="choice"><label for=TICKETS>4 people($8/person)</label><br><br>
                     <input type="radio"id="Choose your ticket"name="choice"><label for=TICKETS>5 people($7.6/person)</label><br><br>
                     <input type="radio"id="Choose your ticket"name="choice"><label for=TICKETS>3 people($5/person)</label><br><br>
                     <label for="time">Will you be staying overnight?</label><br><br>
-                    <input type="radio" id="time"name="choice"><label for=time>Yes</label><br><br>
-                    <input type="radio" id="time"name="choice"><label for="time">No</label><br><br>
+                    <input type="radio" id="time"name="cho"><label for=time>Yes</label><br><br>
+                    <input type="radio" id="time"name="cho"><label for="time">No</label><br><br>
+                    <label for="people">How many people you will bring along?</label><br><br>
+                    <select id="people">
+                        <option>None</option>
+                        <option>Single</option>
+                        <option>4 people</option>
+                        <option>3 people</option>
+                        <option>5 people</option>
+                    </select>
+                    <br><br>
+                        <label for="food">What kind of food you would like to have?</label>
+                        <input type="checkbox"id="food"><label for=if>Indian food</label>
+                        <input type="checkbox"id="food"><label for=itf>Italian food</label>
+                        <input type="checkbox"id="food"><label for=cf>Chinese food</label>
+                        <input type="checkbox"id="food"><label for=jf>Japanese food</label>
+
+                        <input type="checkbox"id="food"><label for=kf>Korean food</label><br><br>
+                    <input type="submit" class="button">
+                    <input type="reset" class="button">
+
+
+                    
                     
 
 

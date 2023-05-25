@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "wscats.cors-browser"
+        "wscats.cors-browser",
+        "firefox-devtools.vscode-firefox-debug"
     ]
 }
